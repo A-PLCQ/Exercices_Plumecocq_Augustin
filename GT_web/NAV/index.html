@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav</title>
+    <link rel="stylesheet" href="/GT_web/NAV/styles.css">
+</head>
+<body>
+    <nav class="bar">
+        <a href="#" class="logo">
+            <span>
+                YPhot
+            </span>
+            <span class="h_why">
+                WHY NOT
+            </span>
+        </a> 
+        <div class="links">
+            <ul>
+                <li><a href="">menu</a></li>
+                <li><a href="">contact</a></li>
+                <li><a href="">produits</a></li>
+                <li><a href="">panier</a></li>
+            </ul>
+        </div>
+        <img class="hamburger" src="/GT_web/NAV/menu.svg" alt="">
+    </nav>
+</body>
+<script>
+    const Hamburger = document.querySelector(".hamburger")
+    const navLinks = document.querySelector(".links")
+        
+    Hamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile_menu')
+    })
+</script>
+
+</html>
