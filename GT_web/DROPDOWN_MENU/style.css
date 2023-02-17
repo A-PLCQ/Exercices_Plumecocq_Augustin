@@ -48,6 +48,7 @@ table {
 a
 {
 	text-decoration: none;
+    color: #fff;
 }
 *{
     box-sizing: border-box;
@@ -57,10 +58,10 @@ a
 
 body 
 {
-    background-color: #fff;
     font-family: "Quicksand", sans-serif;
-    color: #000;
+    color: #fff;
     font-size: 14px;
+    background-image: url(./landscape.jpg);
 }
 .logo
 {
@@ -73,8 +74,7 @@ body
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-right: auto;
-    transition: all 0.3s ease;
+    margin-right: auto;;
 }
 
 .logo .h_why 
@@ -84,5 +84,54 @@ body
 	border-radius: 8px;
     padding: 5px 5px;
 }
+
+.conteneur
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    padding: 25px;
+}
+
+.menu   
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-right: 70px;
+}
+
+.menu a
+{
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.menu a:hover ,.menu2
+{
+    display: block; 
+}
+
+
+
+
+.menu2
+{
+    display: none;
+}
+
+
 
 
