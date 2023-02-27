@@ -50,9 +50,8 @@ table {
 }
 a{
 	text-decoration: none;
-    color: #000;
+	color: #fff;
 }
-
 /*______________________________________________________*/
 
 
@@ -90,22 +89,23 @@ ul
    margin-bottom: auto;
    gap: 10px;
 }
-li
+
+.links a
 {
+
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 50px;
+    margin: 10px;
+    padding: 10px;
     border-radius: 8px;
     color: #000;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 1.5em;
+    font-weight: bold;
     text-transform: uppercase;
-    transition: all 0.3s ease;
 }
 
-li:hover
+.links a:hover
 {
     background-color: #000;
     color: #fff;
